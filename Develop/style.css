@@ -20,7 +20,7 @@ body {
   background-color: #8b7f27;
 }
 
-.hero {
+/* .hero {
   position: relative;
     margin: 0%;
     height: 24rem;
@@ -29,7 +29,7 @@ body {
     background-image: url("../Assets/smaug-02.png");
     background-size: cover;
     background-position: center;
-}
+} */
 
 .wrapper {
   padding-top: 00px;
@@ -61,7 +61,7 @@ header {
   display: block;
   width: 100%;
   background: #000000;
-  height: 2px;
+  height: 3px;
 }
 
 .card-body {
