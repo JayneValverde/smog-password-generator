@@ -20,16 +20,15 @@ body {
   background-color: #8b7f27;
 }
 
-/* .hero {
-  position: relative;
+.hero {
     margin: 0%;
     height: 24rem;
-    width: 96%;
-    margin-bottom: 25px;
-    background-image: url("../Assets/smaug-02.png");
+    width: 98%;
+    /* margin-bottom: 0px; */
+    background-image: url("../Assets/smoog_02.png");
     background-size: cover;
     background-position: center;
-} */
+}
 
 .wrapper {
   padding-top: 00px;

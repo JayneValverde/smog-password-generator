@@ -1,100 +1,53 @@
-# 03 JavaScript: Password Generator
+# SMOOG RANDOM PASSWORD GENERATOR 
+## Jayné M. Valverde
+This weeks challange was a lot harder than I thought it would be. I realize now, especially with JavaScript, small practice sessions every day is going to be a crucial part of me getting through the rest of these assisgnment. <br>
+<br>
+One of my biggest hurdles is understanding how the *for loops* work, but I know with some practice I will feel more and more comfortable. (maybe making my own generators on my spare time) <br>
+Another confusing portion for me was udnerstanding how the *functions* work along side with the **variations**. <br> 
+But again, after some tutoring and discussion with fellow students, I think I have a slight better understanding of how they relate to one another. <br>
+<br>
+The **assignment codes** & **event listeners** are something I am going to have to go over again in my spare time and possibly get a little more tutoring on.<br>
+<br>
+## The Password Generator 
+I was able to get get all the criteria met as far as prompting password questions.
+* length 
+* special characters
+* numers
+* uppercase/lowercase <br>
 
-## Your Task
+I wasnt able to get it to keep generating password based on the original set of questions. <br>
+Everytime you hit, *Generate Password* it starts the questions all over again. 
+<br>
+## Screenshot's of Website w/ Generator 
 
-This week's Challenge requires you to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
+![screenshot one](./Assets/screenshot_01.png)
+ Main loading page when loading the site. <br> 
+ I also, included a hero image cause I love fun fonts for boring websites.
+![screenshot one](./Assets/screenshot_02.png)
+ Here I have circled the first funciton prompt that allows the user to imput 
+ a length criteria.
+![screenshot one](./Assets/screenshot_03.png)
+ Here I have circled the *generated password* that is pushed through after the user answers all 5 password criteria questions.
 
-The password can include special characters. If you’re unfamiliar with these, see this [list of password special characters](https://www.owasp.org/index.php/Password_special_characters) from the OWASP Foundation.
+ ## Resources
 
-## User Story
+ **Juan Delgado**: <br>
+ from my weekly tutor sessions has been a great help on this project.<br>
+ He did a phenominal job at guidng me through finding my own solutions with out just giving me <br>
+ the answers outright. I have a better udnerstanding of how this specific JavaScript code works because of it. 
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
+ **Sarh Squyres**: <br>
+ is a student with me in this program. When I was stuck on figuring out my *for loops* <br>
+ she shared what she had learned from her tutoring sessions. <br> 
+ She did a great job as walking me through how her *for loops* worked and how I can inpliment it in my own code. 
 
-## Acceptance Criteria
+ **Mia** *(from ask-BCS)*: <br>
+ This was my first time using ask-BCS and she responded quickly and concisely on my questions <br>
+ I went to her when I had all of my code finally written out and what I thought should be functional. <br>
+ When I couldn't get it to work, she looked at it for me and noticed slight errors that I had missed <br>
+ Mostly they were syntax errors and problems with me copy/pasting my own code and having unnecessary duplicates.
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
-
-## Mock-Up
-
-The following image shows the web application's appearance and functionality:
-
-![The Password Generator application displays a red button to "Generate Password".](./Assets/03-javascript-homework-demo.png)
-
-## Grading Requirements
-
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
-
-This Challenge is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the preceding acceptance criteria.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository that contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the Challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
-
-- - -
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+ **Ron Bailey**: <br>
+ Ron, our instructor gave us a rough outline of what the code **should** look like.<br>
+ It was a good jump off point for a lot of us who had no idea where to start. <br>
+ He didn't give us crucial answers but just a rough idea of what needs to be set up. 

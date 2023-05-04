@@ -1,6 +1,3 @@
-
-
-
 // special characters 
 var specialCharacters = ['!','#','$','%','(',')','*','+','-',':',';','<','>','?','@','[','/','{','}','|','`~'];
 // numeric characters 
@@ -9,7 +6,6 @@ var numericCharacters = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
 var lowerCasedCharacters = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'];
 // uppercase characters
 var upperCasedCharacters = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
-
 
 // function for getting a random element from an array
 function getRandom(arr) {
@@ -41,8 +37,8 @@ function generatePassword() {
 
 
 // FOR LOOP -------------------------------
-for(let index = 0; index < array.length; index++) {
-  const element = array[index];
+for(let index = 0; index < Array.length; index++) {
+  const element = Array[index];
 }
 
   var pool =[]
