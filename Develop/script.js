@@ -38,11 +38,11 @@ function generatePassword() {
 
   var hasUppercase = confirm("Do you want to include uppercased characters?");
   console.log(hasUppercase);
-}
+
 
 // FOR LOOP -------------------------------
-for(let index = 0; index < Array.length; index++) {
-  const element = Array[index];
+for(let index = 0; index < array.length; index++) {
+  const element = array[index];
 }
 
   var pool =[]
@@ -50,23 +50,23 @@ for(let index = 0; index < Array.length; index++) {
 
 
   if (hasSpecial === true) {
-    for (let i = 0; i < passLength; i++) {
-      var randomIndex = getRandom(lowerCasedCharacters);
-      var randomChar = lowerCasedCharacters[randomIndex];
+    for (let i = 0; i < lengthPassword; i++) {
+      var randomIndex = getRandom(specialCharacters);
+      var randomChar = specialCharacters[randomIndex];
       pool.push(randomChar)
     }
   }
 
   if (hasNumbers === true) {
-    for (let i = 0; i < passLength; i++) {
-      var randomIndex = getRandom(lowerCasedCharacters);
-      var randomChar = lowerCasedCharacters[randomIndex];
+    for (let i = 0; i < lengthPassword; i++) {
+      var randomIndex = getRandom(numericCharacters);
+      var randomChar = numericCharacters[randomIndex];
       pool.push(randomChar)
     }
   }
 
   if (hasLowercase === true) {
-    for (let i = 0; i < passLength; i++) {
+    for (let i = 0; i < lengthPassword; i++) {
       var randomIndex = getRandom(lowerCasedCharacters);
       var randomChar = lowerCasedCharacters[randomIndex];
       pool.push(randomChar)
@@ -74,21 +74,21 @@ for(let index = 0; index < Array.length; index++) {
   }
 
   if (hasUppercase === true) {
-    for (let i = 0; i < passLength; i++) {
+    for (let i = 0; i < lengthPassword; i++) {
       var randomIndex = getRandom(upperCasedCharacters);
       var randomChar = upperCasedCharacters[randomIndex];
       pool.push(randomChar)
     }
   }  
 
-  for (let i = 0; i < passLength; i++) {
+  for (let i = 0; i < lengthPassword; i++) {
     var randomIndex = getRandom(pool);
     var randomChar = pool[randomIndex];
     password.push(randomChar)
   } 
     
   return password.join("");  
-  
+}
 
 // Write password to the #password input
 
